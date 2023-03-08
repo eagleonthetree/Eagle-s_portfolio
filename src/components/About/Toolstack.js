@@ -15,19 +15,19 @@ function Toolstack() {
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <  SiJupyter/>
-        <h3 className="title_skill"> jupyter Notebook <strong className="purple"></strong></h3>
+        <h5 className="title_skill"> jupyter Notebook <strong className="purple"></strong></h5>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
-        <h3 className="title_skill"> VScode <strong className="purple"></strong></h3>
+        <h5 className="title_skill"> VScode <strong className="purple"></strong></h5>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiGooglecolab />
-        <h3 className="title_skill"> Colab <strong className="purple"></strong></h3>
+        <h5 className="title_skill"> Colab <strong className="purple"></strong></h5>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiHeroku />
-        <h3 className="title_skill"> Heroku <strong className="purple"></strong></h3>
+        <h5 className="title_skill"> Heroku <strong className="purple"></strong></h5>
       </Col>
     </Row>
   );
