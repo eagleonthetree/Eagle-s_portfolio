@@ -5,6 +5,7 @@ import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
+import {NavHashLink} from 'react-router-hash-link'
 import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
 import {
@@ -61,23 +62,23 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                href="#AboutS"
+              <NavHashLink style={{ textDecoration: 'none' }}
+                to="/#AboutS" class="navhash"
               >
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> 
                 About
-              </Nav.Link>
+              </NavHashLink>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                href="#project"
+              <NavHashLink style={{ textDecoration: 'none' }}
+                to="/#project" class="navhash"
               >
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Projects
-              </Nav.Link>
+              </NavHashLink>
             </Nav.Item>
 
 
