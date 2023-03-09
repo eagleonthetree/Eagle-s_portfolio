@@ -55,15 +55,16 @@ function NavBar() {
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#Home">
-            <Nav.Item>
-              <Nav.Link as={Link} smooth to="/Home" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
-              </Nav.Link>
+          <Nav.Item>
+              <NavHashLink style={{ textDecoration: 'none' }}
+                to="/#home" class="ms-auto" >
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> 
+                Home
+              </NavHashLink>
             </Nav.Item>
-
             <Nav.Item>
               <NavHashLink style={{ textDecoration: 'none' }}
-                to="/#AboutS" class="navhash"
+                to="/#AboutS" class="ms-auto"
               >
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> 
                 About
@@ -72,7 +73,7 @@ function NavBar() {
 
             <Nav.Item>
               <NavHashLink style={{ textDecoration: 'none' }}
-                to="/#project" class="navhash"
+                to="/#project" class="ms-auto"
               >
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}

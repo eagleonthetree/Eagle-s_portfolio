@@ -1,14 +1,14 @@
 html {
   --section-background-color: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
+    rgba(187, 69, 69, 0.582),
+    rgba(141, 107, 241, 0.904)
   );
 
   --image-gradient: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863)
+    rgba(187, 69, 69, 0.582),
+    rgba(141, 107, 241, 0.904)
   );
 
   --imp-text-color: #c770f0;
@@ -118,6 +118,7 @@ button:focus {
   transition: transform 0.35s ease-in-out !important;
 }
 
+
 .navbar-toggler:not(.collapsed) span:nth-child(1) {
   position: absolute !important;
   left: 12px !important;
@@ -142,9 +143,9 @@ button:focus {
 
 @media (max-width: 767px) {
   .navbar {
-    padding: 1rem 2rem !important;
-    font-size: 1.4rem !important;
-    background-color: #181a27 !important;
+    padding: 0.4rem 2rem !important;
+    font-size: 1.5rem !important;
+    background-color: #8887c780 !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
@@ -184,7 +185,7 @@ button:focus {
 
 @media (max-width: 767px) {
   .nav-link {
-    padding: 0.7rem 1rem !important;
+    padding: 0.5rem 1rem !important;
   }
 }
 

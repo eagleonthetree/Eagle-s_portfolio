@@ -9,6 +9,7 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 function About() {
   return (
+  <section class="curved">
     <div id="AboutS">
     <Container fluid className="about-section">
       <Particle />
@@ -45,6 +46,7 @@ function About() {
       </Container>
     </Container>
     </div>
+  </section> 
   );
 }
 

@@ -42,7 +42,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      <About />
+      <About />   
       <Project />
       </>
   );
